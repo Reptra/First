@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+</head>
+<body>
+<h1>Halo, <span th:text="${username}"></span></h1>
+<h2>Menu:</h2>
+<ul>
+  <li><a href="/buat-anggaran">Buat Anggaran Bulanan</a></li>
+  <li><a href="/catat-pengeluaran">Catat Pengeluaran</a></li>
+  <li><a href="/kelola-tabungan">Kelola Tabungan</a></li>
+</ul>
+</body>
+</html>
